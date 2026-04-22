@@ -1,0 +1,7 @@
+- Use TailwindCSS only
+- Use 8px spacing scale
+- Max 2 font families
+- Maintain accessibility (contrast, readable text)
+- Avoid unnecessary dependencies
+- Keep files modular
+- No duplicated components
