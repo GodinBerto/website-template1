@@ -5,3 +5,6 @@
 - Avoid unnecessary dependencies
 - Keep files modular
 - No duplicated components
+- Components must be reusable and configurable via props
+- Add subtle animations (hover, fade, transitions)
+- Do not overuse animations

@@ -9,6 +9,7 @@ npm run dev
 
 - React / Next.js
 - TailwindCSS
+- Framer Motion
 
 ## AI Usage
 
@@ -17,4 +18,4 @@ npm run dev
 
 ## Goal
 
-Build scalable UI using AI assistance
+Build scalable UI using AI assistance with reusable components and smooth animations

@@ -9,5 +9,6 @@ Requirements:
 - Maintain spacing consistency
 - Responsive layout
 - Clear visual hierarchy
+- Include smooth section animations
 
 Output React code.

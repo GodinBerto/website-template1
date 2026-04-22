@@ -8,5 +8,6 @@ Requirements:
 - Responsive
 - Clean structure
 - Reusable
+- Add subtle animations (menu open/close, transitions)
 
 Output code only.

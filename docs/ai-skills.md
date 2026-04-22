@@ -11,8 +11,16 @@
 
 ## Component Design
 
-- Reusable components
-- Prop-driven
+- Build generic, reusable components
+- Use props for flexibility
+- Avoid duplication
+
+## Animations
+
+- Add subtle UI animations
+- Use Framer Motion when needed
+- Use hover, transitions, and micro-interactions
+- Keep animations smooth and minimal
 
 ## UX
 

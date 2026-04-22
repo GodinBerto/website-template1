@@ -18,3 +18,10 @@
 ## Border Radius
 
 - Default: 0.75rem
+
+## Animation Guidelines
+
+- Duration: 150ms - 300ms
+- Use ease-in-out
+- Prefer subtle motion (fade, slide, scale)
+- Avoid excessive motion
