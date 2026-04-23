@@ -8,3 +8,5 @@
 - Components must be reusable and configurable via props
 - Add subtle animations (hover, fade, transitions)
 - Do not overuse animations
+- If there is any shadow, make it minimal.
+- Dont use gradient colors unless told.
