@@ -43,7 +43,7 @@ When this prompt is invoked, follow these steps:
    - Admin Dashboard Analytics page
    - Admin Dashboard Settings page
 
-   For each page, write a brief description of its content, purpose, and main functionality. MAake sure all pages are created.
+   For each page, write a brief description of its content, purpose, and main functionality. Make sure all pages are created.
 
 4. If the app type is not "e-commerce", ask the user:
    - How many pages should the app have?
