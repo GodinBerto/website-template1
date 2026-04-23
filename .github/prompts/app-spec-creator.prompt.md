@@ -1,6 +1,6 @@
 ---
 name: app-spec-creator
-description: Create an app specification document by prompting user for type, colors, name, stack, and content. For e-commerce apps, includes predefined pages like home, store, product view, cart, checkout, admin dashboard, etc. Works with any AI agent.
+description: Create an e-commerce app specification document by prompting user for store type, colors, name, stack, product type, and page structure. Works with any AI agent.
 ---
 
 # App Specification Creator
@@ -9,42 +9,51 @@ When this prompt is invoked, follow these steps:
 
 1. Prompt the user for the following information:
    - Type of app (e.g., e-commerce, blog, portfolio, dashboard)
-   - Colors (primary and secondary color scheme)
-   - Name (app name)
-   - Stack (choose between Next.js or React Vite)
+   - Name of the app
+   - Preferred stack (Next.js or React Vite)
+   - Primary and secondary colors
+   - A brief description of the app's purpose and target audience
+   - Ask whether they want to upload an image for the design or have the system generate a design based on the colors and app type. If they choose to upload an image, prompt them to provide the image file.
 
-2. if the app type is "e-commerce", ask the user if they want to:
-   - Provide a design image for it or Use a predefined design based on the colors provided
-   - If they choose to provide a design image, prompt them to upload it and analyze the design to extract the color scheme and layout information. Use this information to generate the app specification document.
-   - The type of product the user wants to sell (e.g., clothing, electronics, home goods) to tailor the page content and layout accordingly.
+2. If the app type is "e-commerce", ask the user for the following details:
+   - The product type or store category (for example: perfume, fashion, electronics, home goods, wellness)
+   - The target audience or customer profile
+   - Whether they prefer a clean premium style, bold modern look, or friendly bright design
+   - Whether they want a custom design image or a system-generated design based on the colors
 
-3. If the app type is "e-commerce", use the following predefined pages
+3. For an e-commerce app, use the following required store pages:
    - Home page
    - Store/Product listing page
    - Single product view page
-   - Cart page (implemented as a sheet/modal)
+   - Cart page (sheet/modal style)
    - Checkout page
    - About Us page
    - Contact Us page
+   - Signup/Login page
+   - User Order History page
+   - User Account Settings page
+   - User Wishlist page
+
+   And include admin store pages:
    - Admin Dashboard page
    - Admin Dashboard Products page
    - Admin Dashboard Orders page
    - Admin Dashboard Transactions page
-   - User Order History page
-   - User Account Settings page
-   - User Wishlist page
-   - Signup/Login page
+   - Admin Dashboard Customers page
+   - Admin Dashboard Analytics page
+   - Admin Dashboard Settings page
 
-   For each page, include a brief description of the content and functionality.
+   For each page, write a brief description of its content, purpose, and main functionality. MAake sure all pages are created.
 
-4. If the app type is not "e-commerce", prompt for:
-   - Number of pages
-   - Document of the app content (brief description of what each page should contain)
+4. If the app type is not "e-commerce", ask the user:
+   - How many pages should the app have?
+   - A brief description of what each page should contain.
 
-5. After collecting all the information, generate a comprehensive markdown document that includes:
-   - App Overview (type, name, stack)
-   - Design Specifications (colors)
-   - Page Structure (list of pages with content outline)
+5. Generate a clean markdown specification document that includes:
+   - App Overview (type, name, stack, product type, audience)
+   - Design Specifications (colors, style direction)
+   - Page Structure (list of pages and content outline)
    - Technical Stack details
+   - Any special features (cart sheet, checkout flow, admin dashboard, login/signup)
 
-6. Output the document. If possible, save it as `app-spec.md`.
+6. Output the complete markdown document. If possible, save it as `app-spec.md`; otherwise return the markdown text directly.
