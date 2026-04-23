@@ -31,6 +31,9 @@ When this prompt is invoked, follow these steps:
    - Admin Dashboard Orders page
    - Admin Dashboard Transactions page
    - User Order History page
+   - User Account Settings page
+   - User Wishlist page
+   - Signup/Login page
 
    For each page, include a brief description of the content and functionality.
 
